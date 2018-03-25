@@ -1,0 +1,48 @@
+{
+  "name": "fanmi-download-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "YangFan789 <YangFan789@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "node fuse.js dev",
+    "build": "node fuse.js build",
+    "clean": "node fuse.js clean",
+    "lint": "node fuse.js lint"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "fuse-box": "^3.1.3",
+    "fuse-box-typechecker": "^2.7.1",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.10.0",
+    "typescript": "^2.7.2",
+    "uglify-es": "^3.3.9",
+    "uglify-js": "^3.3.16"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.0.63",
+    "@types/react": "^16.0.40",
+    "@types/react-dom": "^16.0.4",
+    "@types/react-router-dom": "^4.2.5",
+    "antd": "^3.3.2",
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "component-indexof": "^0.0.3",
+    "history": "^4.7.2",
+    "immutable": "^3.8.2",
+    "lodash": "^4.17.5",
+    "mobx": "^4.1.0",
+    "mobx-react": "^5.0.0",
+    "rc-queue-anim": "^1.4.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-config": "^1.0.0-beta.4",
+    "react-router-dom": "^4.2.2",
+    "react-router-page-transition": "^3.0.2",
+    "styled-components": "^3.2.3"
+  }
+}
